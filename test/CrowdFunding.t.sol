@@ -33,7 +33,7 @@ contract CrowdFundTest is Test {
     }
 
     function testGoalReached() public {
-        uint256 contribution = GOAL/2;
+        uint256 contribution = GOAL / 2;
 
         vm.deal(contributor1, contribution);
         vm.deal(contributor2, contribution);

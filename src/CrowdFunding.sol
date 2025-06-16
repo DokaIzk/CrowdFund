@@ -3,7 +3,6 @@ pragma solidity ^0.8.29;
 
 import {Test, console} from "forge-std/Test.sol";
 
-
 contract CrowdFund {
     address public owner;
     uint256 public goal;
