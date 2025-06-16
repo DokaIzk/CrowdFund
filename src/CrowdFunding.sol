@@ -28,6 +28,8 @@ contract CrowdFund {
     event OwnerWithdrew(uint256 amount);
     event RefundIssued(address indexed contributor, uint256 amount);
 
+    receive() external payable {}
+
     constructor(uint256 _goal, uint256 _deadline) {
         owner = msg.sender;
         goal = _goal;
