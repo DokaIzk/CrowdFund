@@ -12,7 +12,6 @@ contract CrowdFundTest is Test {
     uint8 constant DECIMALS = 18;
     uint256 constant GOAL = 1000000 * (10 ** DECIMALS);
 
-    receive() external payable {}
 
     function setUp() public {
         owner = address(this);
